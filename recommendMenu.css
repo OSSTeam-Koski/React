@@ -1,0 +1,134 @@
+@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
+
+body, head {
+    margin: 0 0 0 0;
+    font-family: NanumSquareRound;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+#container {
+    width: 480px;
+    height: calc(100% - 7%);
+    background: -webkit-linear-gradient(top, #fdbe57, #fd9057, #ffffff 50%);
+}
+
+#footer {
+    width: 480px;
+    height: 7%;
+    background: -webkit-linear-gradient(left, #fdbe57, #fd9057);
+}
+
+#recommend {
+    position: absolute;
+    top: 72.1px;
+    left: 106.7px;
+    width: 252.7px;
+    height: 44.3px;
+    border-radius: 68px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+    border: solid 7px #fdbe75;
+    color: #b17513;
+    font-size: 26px;
+    z-index: 1;
+}
+
+#box {
+    position: relative;
+    top: 85px;
+    left: 9.3px;
+    width: 445.3px;
+    height: 539.4px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+    background-color: #fffdee;
+    border: solid 8px #fdbe57;
+    border-radius: 30px;
+}
+
+#wholeMenu {
+    position: absolute;
+    top: 657.5px;
+    left: 107px;
+    width: 252.7px;
+    height: 44.3px;
+    background-color: #ffffff;
+    border: solid 7px #fdbe57;
+    border-radius: 125px;
+    font-size: 26px;
+}
+
+#most{
+    position: absolute;
+    left: 55.6px;
+    top: 85px;
+}
+
+#mostImgBox {
+    width: 162.8px;
+    height: 162.8px;
+    border-radius: 47px;
+    box-shadow: 5px 5px 5px 0 rgba(74, 74, 74, 0.3);
+    background-image: url('./T_14123_0.jpg');
+    background-size: cover;
+    display: inline-block;
+}
+
+#mostTextBox {
+    position: relative;
+    top: -40px;
+    left: 44.7px;
+    display: inline-block;
+}
+
+.choiceBox:nth-child(1n) {
+    position: absolute;
+    top: 206.3px;
+    left: -40px;
+}
+
+.choiceBox:nth-child(2n) {
+    position: absolute;
+    top: 206.3px;
+    left: 100px;
+}
+
+.choiceBox:nth-child(3n) {
+    position: absolute;
+    top: 206.3px;
+    left: 250px;
+}
+
+.choiceImgBox {
+    width: 123.1px;
+    height: 123.1px;
+    background-image: url('./T_13873_0.jpg');
+    background-size: cover;
+    border-radius: 47px;
+    box-shadow: 5px 5px 5px 0 rgba(74, 74, 74, 0.3);
+}
+
+.choiceTextBox {
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 17px;
+    font-family: NanumSquareRound;
+}
+
+.name {
+    position: relative;
+    left: 15px;
+}
+
+#totalAmount {
+    position: absolute;
+    top: 7.5px;
+    left: 296.4px;
+    width: 174.2px;
+    height: 41.7px;
+    border-radius: 36px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 6px 0 rgba(148, 148, 148, 0.59);
+}

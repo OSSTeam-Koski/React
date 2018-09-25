@@ -1,0 +1,63 @@
+@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
+
+body {
+    margin: 0 0 0 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: NanumSquareRound;
+    overflow: hidden;
+}
+
+#box {
+    position: relative;
+    top: 96.3px;
+    left: 9px;
+    width: 461.3px;
+    height: 555.4px;
+    border-radius: 58px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+}
+
+p {
+    margin: 0 0 0 0;
+}
+
+#sign {
+    position: absolute;
+    top: 296.3px;
+    left: 146.1px;
+    width: 163.8px;
+    height: 27.7px;
+    border-radius: 68px;
+    box-shadow: 5px 5px 5px 0 rgba(74, 74, 74, 0.27);
+    border: solid 7px #fff2f1;
+}
+
+#sign p {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: 22px;
+}
+
+#signBox {
+    position: absolute;
+    top: 317.5px;
+    left: 30px;
+    width: 401.3px;
+    height: 148.3px;
+    border-radius: 58px;
+    box-shadow: 15px 15px 5px 0 rgba(74, 74, 74, 0.27);
+}
+
+#doneButton {
+    position: absolute;
+    top: 484.6px;
+    left: 98px;
+    width: 256.7px;
+    height: 48.3px;
+    border-radius: 68px;
+    border: solid 5px #dc6e61;
+}
