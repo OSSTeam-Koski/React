@@ -1,3 +1,6 @@
-# React
-안녕하세요 반갑습니다 
-앞으로 최이삭의 리액트 코드들로 만나뵙도록 하겠습니다 - PM
+# WebFrontDesign
+SuHa's perfect HTML5/CSS3 Design
+
+## about this repository
+- our team's icon and logo
+- some web designs that used to koski(pannel)
